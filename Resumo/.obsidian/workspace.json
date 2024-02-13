@@ -6,7 +6,7 @@
       {
         "id": "222b90cbe657301a",
         "type": "tabs",
-        "dimension": 51.91897654584222,
+        "dimension": 53.304904051172706,
         "children": [
           {
             "id": "8cb8f3e8ee99e54e",
@@ -25,7 +25,7 @@
       {
         "id": "12a058ecf5cb9d06",
         "type": "tabs",
-        "dimension": 48.08102345415779,
+        "dimension": 46.695095948827294,
         "children": [
           {
             "id": "b0a39f73a843b27d",
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e692a470ffce9d76",
@@ -169,9 +168,15 @@
   },
   "active": "8cb8f3e8ee99e54e",
   "lastOpenFiles": [
-    "Pasted image 20240213162259.png",
-    "Pasted image 20240213161357.png",
-    "Pasted image 20240213161321.png",
+    "imgs/Pasted image 20240213191320.png",
+    "imgs/Pasted image 20240213190519.png",
+    "imgs/Pasted image 20240213165715.png",
+    "imgs/Pasted image 20240213165526.png",
+    "imgs/Pasted image 20240213165104.png",
+    "Pasted image 20240213165022.png",
+    "imgs/Pasted image 20240213162259.png",
+    "imgs/Pasted image 20240213161357.png",
+    "imgs/Pasted image 20240213161321.png",
     "imgs/Pasted image 20240213161126.png",
     "Resumo React.md",
     "imgs",
