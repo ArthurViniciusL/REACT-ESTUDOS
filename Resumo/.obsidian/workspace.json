@@ -1,18 +1,42 @@
 {
   "main": {
-    "id": "2b958d6e3bafaaba",
+    "id": "e76a443d87aecc2e",
     "type": "split",
     "children": [
       {
-        "id": "c642d8ed5d415e19",
+        "id": "222b90cbe657301a",
         "type": "tabs",
+        "dimension": 51.91897654584222,
         "children": [
           {
-            "id": "c8e61cefe4632d23",
+            "id": "8cb8f3e8ee99e54e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Resumo React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "12a058ecf5cb9d06",
+        "type": "tabs",
+        "dimension": 48.08102345415779,
+        "children": [
+          {
+            "id": "b0a39f73a843b27d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resumo React.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +45,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "53a6361bedc6ef7d",
+    "id": "cbb993d7993e08ae",
     "type": "split",
     "children": [
       {
-        "id": "86207b9ce08f5c18",
+        "id": "244a9a9d3edd7576",
         "type": "tabs",
         "children": [
           {
-            "id": "1865cded5ebb533e",
+            "id": "196d72d4aedce8c2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +63,7 @@
             }
           },
           {
-            "id": "f78cb7fe5c78a151",
+            "id": "aca2cd39e73f3e1b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +78,7 @@
             }
           },
           {
-            "id": "2526272f68e19458",
+            "id": "4cf7e20cdc0fec62",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,22 +89,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "805658f8142145ce",
+    "id": "e692a470ffce9d76",
     "type": "split",
     "children": [
       {
-        "id": "27af35b13ebe2c17",
+        "id": "48ded2707a98b98f",
         "type": "tabs",
         "children": [
           {
-            "id": "e7bd8d54338190a5",
+            "id": "1f1893d59f33e0d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Resumo React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +118,19 @@
             }
           },
           {
-            "id": "9e27900fcfa494ef",
+            "id": "40f15ba9b3760952",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Resumo React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "174f7d75d590836c",
+            "id": "f12bc79881abfc04",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +141,13 @@
             }
           },
           {
-            "id": "ac87d93317fe9f47",
+            "id": "afed3d137548307d",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Resumo React.md"
+              }
             }
           }
         ]
@@ -138,6 +167,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c8e61cefe4632d23",
-  "lastOpenFiles": []
+  "active": "8cb8f3e8ee99e54e",
+  "lastOpenFiles": [
+    "Pasted image 20240213162259.png",
+    "Pasted image 20240213161357.png",
+    "Pasted image 20240213161321.png",
+    "imgs/Pasted image 20240213161126.png",
+    "Resumo React.md",
+    "imgs",
+    "imgs/Pasted image 20240213133534.png"
+  ]
 }
