@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "e706da9fa380033c",
+    "id": "511fd554d89b56dc",
     "type": "split",
     "children": [
       {
-        "id": "76fa516649a61daa",
+        "id": "f23ca159a0ec9c49",
         "type": "tabs",
         "children": [
           {
-            "id": "91353a5778f7a80d",
+            "id": "572a296d50e5fbd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React JS.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1bd0ab76c422e83d",
+    "id": "3c3d21872385ac42",
     "type": "split",
     "children": [
       {
-        "id": "3b34151fe8f1cdb5",
+        "id": "cfd03bb226a3b325",
         "type": "tabs",
         "children": [
           {
-            "id": "73f23065c3643a90",
+            "id": "93a5e549b81d51bb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "9478c2855e58ef23",
+            "id": "8f56eb3350504917",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "03654dd86f83b5a1",
+            "id": "cfb9fb7fa609b34a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "7d41361226529a43",
+    "id": "e3c83010e57883bb",
     "type": "split",
     "children": [
       {
-        "id": "f1547405dc58ef17",
+        "id": "d7046cd9666cf0be",
         "type": "tabs",
         "children": [
           {
-            "id": "2daade8d07b660f6",
+            "id": "283a354a2afd78d4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React JS.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "f3395959452f53b7",
+            "id": "2c3fd60145df6654",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React JS.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9bea7655593b22f5",
+            "id": "4fb4f95db1305a7f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "be9c50da72b2a74c",
+            "id": "257d13c25699ce64",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "React JS.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +146,6 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "91353a5778f7a80d",
-  "lastOpenFiles": [
-    "React JS.md"
-  ]
+  "active": "572a296d50e5fbd1",
+  "lastOpenFiles": []
 }
