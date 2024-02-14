@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e692a470ffce9d76",
@@ -149,12 +150,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 268.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,18 +169,18 @@
   },
   "active": "8cb8f3e8ee99e54e",
   "lastOpenFiles": [
-    "imgs/Pasted image 20240213191320.png",
-    "imgs/Pasted image 20240213190519.png",
-    "imgs/Pasted image 20240213165715.png",
-    "imgs/Pasted image 20240213165526.png",
-    "imgs/Pasted image 20240213165104.png",
-    "Pasted image 20240213165022.png",
-    "imgs/Pasted image 20240213162259.png",
-    "imgs/Pasted image 20240213161357.png",
-    "imgs/Pasted image 20240213161321.png",
-    "imgs/Pasted image 20240213161126.png",
+    "Pasted image 20240214165247.png",
+    "Pasted image 20240214164929.png",
+    "Pasted image 20240214163303.png",
+    "Pasted image 20240214163206.png",
+    "Pasted image 20240214162716.png",
+    "Pasted image 20240214162252.png",
+    "Pasted image 20240214162226.png",
+    "Pasted image 20240214162203.png",
+    "Pasted image 20240214162109.png",
+    "Pasted image 20240214122921.png",
+    "Pasted image 20240214122846.png",
     "Resumo React.md",
-    "imgs",
-    "imgs/Pasted image 20240213133534.png"
+    "imgs"
   ]
 }

@@ -69,4 +69,49 @@ O conteúdo que interessa para o _deploy_ agora está dentro da pasta _build_.
 ![[Pasted image 20240213190519.png]]
 
 ---
+## Componentes de funções e de classes.
+
+### Funções.
+> A forma mais básica de criar componentes _React_ é através de uma _function_.
+> 
+> ![[Pasted image 20240214122526.png]]
+> Mas funções podem ser um pouco limitas quando há a necessidade de manipular o estado (dados) dos componentes da página.
+
+### Classes.
+> As classes permitem uma maior flexibilidade para quando se deseja manipular estados e criar algum tipo de comportamento de interação com os componentes.
+> 
+> ![[Pasted image 20240214122921.png]]
+> Sempre que se desejar tratar uma classe como um componente o _{ Component }_ deve ser importado.
+---
+### Manipulando estado de componentes de classes.
+
+![[Pasted image 20240214162109.png]]
+
+No _React_ com _Javascript_ criar um construtor dentro de um componente (uma classe), é opcional, mas eu particularmente prefiro trabalhar com construtores.
+
+_Props_ serve para informar que o componente filho vai herdar características do componentes pai.
+
+- Criando o método.
+	Uma das características atuais do _React_ é ele não faz um _bind_ com os métodos criados dentro de uma classe. 
+	
+	Então isso precisa ser declarado de forma explicita no construtor.
+	
+	![[Pasted image 20240214163206.png]]
+	
+	
+	Ou os métodos podem ser escritos com o padrão _arrow function_.
+	
+	![[Pasted image 20240214163303.png]]
+- Chamando o método.
+	Para esse exemplo primeiro vamos "importar" o atributo para ser renderizado.
+	![[Pasted image 20240214164929.png]]
+	
+	Depois vamos atribuir um evento para disparar os nosso métodos.
+	![[Pasted image 20240214165247.png]]
+- Mudando o estado do componente.
+	![[Pasted image 20240214162203.png]]
+	![[Pasted image 20240214162226.png]]
+	![[Pasted image 20240214162252.png]]
+
+---
 ## x
