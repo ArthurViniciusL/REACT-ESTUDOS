@@ -78,7 +78,7 @@ O conteúdo que interessa para o _deploy_ agora está dentro da pasta _build_.
 > Mas funções podem ser um pouco limitas quando há a necessidade de manipular o estado (dados) dos componentes da página.
 
 ### Classes.
-> As classes permitem uma maior flexibilidade para quando se deseja manipular estados e criar algum tipo de comportamento de interação com os componentes.
+> As classes permitem uma maior flexibilidade para quando se deseja manipular estados (_state_)e criar algum tipo de comportamento de interação com os componentes.
 > 
 > ![[Pasted image 20240214122921.png]]
 > Sempre que se desejar tratar uma classe como um componente o _{ Component }_ deve ser importado.
@@ -90,6 +90,8 @@ O conteúdo que interessa para o _deploy_ agora está dentro da pasta _build_.
 No _React_ com _Javascript_ criar um construtor dentro de um componente (uma classe), é opcional, mas eu particularmente prefiro trabalhar com construtores.
 
 _Props_ serve para informar que o componente filho vai herdar características do componentes pai.
+
+_this.state_ é um atributo do _React_.
 
 - Criando o método.
 	Uma das características atuais do _React_ é ele não faz um _bind_ com os métodos criados dentro de uma classe. 
@@ -114,4 +116,22 @@ _Props_ serve para informar que o componente filho vai herdar características d
 	![[Pasted image 20240214162252.png]]
 
 ---
-## x
+## State de Array e Objetos.
+Algo muito de se trabalhar é o recebimento de dados através de um _JSON_, seja em um arquivo local ou obtido através de uma API (_lifecycle methods_).
+
+Independe da origem, é importante exibir os dados na tela, e o _React_ facilita bastante esse processo.
+
+- Criando um _State_ com alguns objetos.
+	![[Pasted image 20240214171434.png]]
+- Carregando os dados.
+	![[Pasted image 20240214181302.png]]
+	O método _map(...)_ é o responsável por ler os dados.
+	
+	Os atributos estão sendo carregados dentro de uma **```<main></main>```** porque o _Rect_ exige que exista apenas um elemento de nível superior no retorno da função. 
+	OBS: poderia ser uma **```<div>```** simples, mas aqui eu preferi usar uma melhor semântica _HTML_.
+	
+	O parâmetro _key={...}_ deve ser usado no elemento de nível superior porque dessa maneira o _React_ consegue identificar cada elemento gerado na hora de converter o _JSX_ para _HTML_. 
+	![[Pasted image 20240214172020.png]]
+---
+## Lifecycle methods.
+x
