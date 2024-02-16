@@ -134,4 +134,13 @@ Independe da origem, é importante exibir os dados na tela, e o _React_ facilita
 	![[Pasted image 20240214172020.png]]
 ---
 ## Lifecycle methods.
+São um métodos pertencentes ao _React_ que servem para manipular os ciclos de vida de um componente, o que permite a execução de uma determinada mudança em um componente quando ele é renderizado, atualizado ou finalizado.
+
+- Por exemplo, quando o componente é carregado.
+	![[Pasted image 20240216171612.png]]
+	![[Pasted image 20240216171322.png]]
+	![[Pasted image 20240216171334.png]]
+	- Mais lifecycle methods: https://pt-br.legacy.reactjs.org/docs/react-component.html
+---
+## Data Fetching.
 x
