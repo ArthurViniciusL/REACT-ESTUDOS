@@ -143,4 +143,33 @@ São um métodos pertencentes ao _React_ que servem para manipular os ciclos de 
 	- Mais lifecycle methods: https://pt-br.legacy.reactjs.org/docs/react-component.html
 ---
 ## Data Fetching.
+Fazer um _fetching_ é um recurso do _Javascript_ para consumir o conteúdo de API externas.
+
+Para exemplificar a parte de conteúdo eu vou usar uma ferramenta chamada **JSON Placeholder** (https://jsonplaceholder.typicode.com/). E para isso serão utilizadas duas API.
+- /posts para a parte de conteúdo em texto.
+```
+	https://jsonplaceholder.typicode.com/posts
+```
+-  /photos para a parte de imagens atreladas ao texto.
+```
+	https://jsonplaceholder.typicode.com/photos
+```
+Também será feita uma estilização com CSS para compor um layout em formato de grid para compor o conteúdo.
+	![[Pasted image 20240219193056.png]]
+	![[Pasted image 20240219192923.png]]
+	![[Pasted image 20240219193001.png]]
+
+1. Fazendo as requisições.
+	![[Pasted image 20240219193148.png]]
+
+2. Unindo o texto e a imagem.
+	![[Pasted image 20240219193308.png]]
+3. Carregando o conteúdo. 
+	![[Pasted image 20240219193500.png]]
+4. Montando o componente.
+	![[Pasted image 20240219193610.png]]
+5. Resultado.
+	![[Pasted image 20240219193720.png]]
+---
+## Props e organização dos componentes.
 x
