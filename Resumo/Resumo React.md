@@ -125,7 +125,7 @@ Independe da origem, é importante exibir os dados na tela, e o _React_ facilita
 	![[Pasted image 20240214171434.png]]
 - Carregando os dados.
 	![[Pasted image 20240214181302.png]]
-	O método _map(...)_ é o responsável por ler os dados.
+	O método _map(...)_ é o responsável por ler os dados e um _map(...)_ sempre deve possuir um atributo _key{...}_.
 	
 	Os atributos estão sendo carregados dentro de uma **```<main></main>```** porque o _Rect_ exige que exista apenas um elemento de nível superior no retorno da função. 
 	OBS: poderia ser uma **```<div>```** simples, mas aqui eu preferi usar uma melhor semântica _HTML_.
@@ -172,4 +172,56 @@ Também será feita uma estilização com CSS para compor um layout em formato d
 	![[Pasted image 20240219193720.png]]
 ---
 ## Props e organização dos componentes.
-x
+
+
+### Organizando os componentes
+Aqui nessa demonstração de refatoração vamos usar o padrão de organização _components_.
+
+![[Pasted image 20240311131617.png]]
+
+Outro padrão que está sendo aplicado é o uso da extensão _jsx_ para componentes do _React_ com javascript => _JSx_.
+### Escrevendo o componente
+
+![[Pasted image 20240311131834.png]]
+Essa passagem de parâmetros para o componente são chamadas de _Prosp_.
+
+Algo importante de ser observado é que a passagem de paramentos já foi feita aplicando um _destruct_. 
+
+![[Pasted image 20240311132158.png]]
+Agora que já importamos o componente no arquivo _App.js_ podemos fazer a sua chamada.
+
+### Usando props
+
+![[Pasted image 20240311133126.png]]
+
+- O construtor é chamado quando uma nova instância do componente é criada, ou seja, toda vez que a página carrega aquele componente ele chamado e atualizado.
+- O parâmetro _props_ representa as propriedades passadas para o componente.
+- **this.state** é responsável por inicializar o novo estado do componente.
+
+### Movendo funções
+Outra coisa que também podemos fazer para limpar _App.js_ é mover algumas funções que trabalham com o nosso componente.
+
+- **Essa é a implementação atual do métodos do nosso componente.**
+> ![[Pasted image 20240311145541.png]]
+
+- **Após separar os organizar essa é a implementação.**
+> Movemos todos os métodos para dentro de  _load-posrs.js_. e exportamos apenas a função que nós interessa: **loadPosts()**.
+> ![[Pasted image 20240311145658.png]]
+
+- **E dentro de _App.js_ fazemos a chamada do método.**
+> ![[Pasted image 20240311145646.png]]
+> ![[Pasted image 20240311150441.png]]
+---
+### Organizando o componente Posts
+- **No momento o nosso componente está assim:**
+> ![[Pasted image 20240316221802.png]]
+> Mas é interessante poder separar ele para que seja possível _componentizar_ ainda mais a aplicação
+- **O primeiro passo é criar a pasta do componente.**
+>![[Pasted image 20240316222058.png]]
+- **Agora vamos de fato criar o componente.**
+> ![[Pasted image 20240316222143.png]]
+
+- **Em seguidas vamos chamar esse novo componente dentro de App.js**
+> ![[Pasted image 20240316222401.png]]
+> ![[Pasted image 20240316222424.png]]
+> ![[Pasted image 20240316222456.png]]

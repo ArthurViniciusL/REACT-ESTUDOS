@@ -155,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,17 +170,17 @@
   },
   "active": "8cb8f3e8ee99e54e",
   "lastOpenFiles": [
-    "Pasted image 20240219193720.png",
-    "Pasted image 20240219193610.png",
-    "Pasted image 20240219193500.png",
-    "Pasted image 20240219193308.png",
-    "Pasted image 20240219193148.png",
-    "Pasted image 20240219193056.png",
-    "Pasted image 20240219193001.png",
-    "Pasted image 20240219192923.png",
-    "imgs/Pasted image 20240216171612.png",
-    "imgs/Pasted image 20240216171334.png",
-    "imgs/Pasted image 20240216171322.png",
+    "Pasted image 20240316222456.png",
+    "Pasted image 20240316222424.png",
+    "Pasted image 20240316222401.png",
+    "Pasted image 20240316222143.png",
+    "Pasted image 20240316222058.png",
+    "Pasted image 20240316221802.png",
+    "imgs/Pasted image 20240311150441.png",
+    "imgs/Pasted image 20240311145658.png",
+    "imgs/Pasted image 20240311145646.png",
+    "imgs/Pasted image 20240311145541.png",
+    "imgs/Pasted image 20240311133126.png",
     "Resumo React.md",
     "imgs"
   ]
